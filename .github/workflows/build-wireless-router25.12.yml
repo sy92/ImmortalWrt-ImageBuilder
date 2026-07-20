@@ -26,6 +26,13 @@ on:
         description: "请选择mtk路由器型号"
         required: true
         options:
+          - xiaomi_mi-router-ax3000t
+          - xiaomi_mi-router-ax3000t-ubootmod
+          - xiaomi_mi-router-wr30u-stock
+          - xiaomi_mi-router-wr30u-ubootmod
+          - xiaomi_mi-router-wr30u-112m-nmbm
+          - netcore_n60
+          - netcore_n60-pro
           - aliyun_ap8220
           - glinet_gl-mt3600be
           - glinet_gl-mt2500
@@ -46,11 +53,6 @@ on:
           - jcg_q30-ubootmod
           # 京东云AX6000百里
           - jdcloud_re-cp-03
-          - xiaomi_mi-router-ax3000t
-          - xiaomi_mi-router-ax3000t-ubootmod
-          - xiaomi_mi-router-wr30u-stock
-          - xiaomi_mi-router-wr30u-ubootmod
-          - xiaomi_mi-router-wr30u-112m-nmbm
           - xiaomi_redmi-router-ax6000
           - xiaomi_redmi-router-ax6000-stock
           - xiaomi_redmi-router-ax6000-ubootmod
@@ -122,8 +124,6 @@ on:
           - mercusys_mr80x-v3
           - mercusys_mr90x-v1
           - mercusys_mr90x-v1-ubi
-          - netcore_n60
-          - netcore_n60-pro
           - netgear_wax220
           - netis_nx31
           - nokia_ea0326gmp
